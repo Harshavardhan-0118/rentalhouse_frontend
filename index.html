@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7f5">
+  <title>Household | Rental management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/api.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#browse" aria-label="Household home">
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span>household<span class="brand-period">.</span></span>
+      </a>
+      <div class="sidebar-caption" id="nav-caption">DISCOVER</div>
+      <nav id="side-nav" class="side-nav" aria-label="Main navigation"></nav>
+      <div class="sidebar-bottom">
+        <div class="status-dot"></div>
+        <span>Rental house management</span>
+      </div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar">
+        <div class="topbar-title" id="topbar-title">Find a place to call home</div>
+        <div class="topbar-actions" id="topbar-actions"></div>
+      </header>
+      <section id="view" class="view" aria-live="polite"></section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
